@@ -1,0 +1,10 @@
+name: NONTARGET
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - r-base=4
+  - rpy2
+  - nbclassic
+  - openpyxl
+  - pandas

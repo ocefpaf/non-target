@@ -1,0 +1,13 @@
+line-length = 79
+
+lint.select = ["ALL"]
+
+lint.ignore = [
+    "D203",  # 1 blank line required before class docstring
+    "D205",  # 1 blank line required between summary line and description
+    "D213",  # incompatible. Ignoring `multi-line-summary-second-line`
+    "TRY003",  # Avoid specifying long messages outside the exception class
+]
+
+[lint.pycodestyle]
+max-doc-length = 180
